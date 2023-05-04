@@ -1,0 +1,15 @@
+{
+  "id": 10,
+  "name": "Multipage Education Website",
+  "img": "/data/imgs/portfolio-education.png",
+  "urlName": "MultiPage Education Web",
+  "url": "https://education.intellibytesolutions.com/",
+  "description": "This is a responsive website made for an education institution. It is compatible with computers, mobiles, and tablets.",
+  "tech": "HTML, CSS, JavaScript, FontAwesome, GoogleFonts, Swiper JS, and Formspree",
+  "generalInfo": [
+    "This website includes 4 pages: Home, About, Courses, and Contact.",
+    "On the Home page, Swiper JS is used to show students' testimonials.",
+    "On the About page, if you hover your mouse pointer on the card of a staff member, you can see her / his social media icons, and her / his black-and-white photo turns into a colourful one.",
+    "On the Contact page, the user can send messages to the web owner's email address through a form with the help of Formspree. The form can validate the information that the user has typed. Once the user has clicked the 'Send Message' button, Formspree directs the user to an anti-spam page to make sure the user is a real user. Only after this spam-check step will the user's message be sent to the web owner."
+  ]
+}

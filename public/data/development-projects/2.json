@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "name": "E-Commerce Mobile Jd",
+  "img": "/data/imgs/portfolio-jd.png",
+  "urlName": "Jingdong",
+  "url": "https://jd.intellibytesolutions.com/",
+  "description": "This is a home page made for an e-commerce company.",
+  "tech": "HTML, CSS",
+  "generalInfo": [
+    "It is compatible with different types of mobiles and tablets.",
+    "The search bar is fixed when you scroll down or up."
+  ]
+}

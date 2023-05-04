@@ -1,0 +1,13 @@
+{
+  "id": "1",
+  "name": "Tourism Mobile Xc",
+  "img": "/data/imgs/portfolio-xc.png",
+  "urlName": "Xiecheng",
+  "url": "https://xiecheng.intellibytesolutions.com/",
+  "description": "This is a home page made for a travel company.",
+  "tech": "HTML, CSS",
+  "generalInfo": [
+    "It is compatible with different types of mobiles and tablets.",
+    "The search bar is fixed when you scroll down or up."
+  ]
+}

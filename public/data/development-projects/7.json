@@ -1,0 +1,22 @@
+{
+  "id": 7,
+  "name": "WordPress E-Commerce",
+  "img": "/data/imgs/portfolio-wpecommerce.png",
+  "urlName": "WordPress e-Commerce",
+  "url": "https://wpecommerce.intellibytesolutions.com/",
+  "description": "This is a WordPress responsive e-commerce website. It is compatible with computers, mobiles, and tablets.",
+  "tech": "WordPress, WooCommerce",
+  "generalInfo": [
+    " On the Home page, a user can login/ register by clicking the human icon on the top-right of the page. Then the user will be directed to the Dashboard page where she can see and manage her orders, downloads, shipping addresses, account details, and whishlist.",
+    "The user can be directed to the product list when she clicks the picture of a product category like 'women', 'bags', and 'gadgets' on the Home page. By clicking the submenu of 'Shop' on the Home page's top navigation bar, the user can also be directed to a product list.",
+    "The e-commerce owner can set 'featured products' on the Home page to promoe these products.",
+    "The owner of the e-commerce can set different types of products: simple products, variable products(setting sizes, colours etc.), affiliate products(e.g. links to Amazon products), and digital downloadable products(e.g. e-books).",
+    "When the user sees a product that she likes, she can add it to her whishlist or shopping cart. A user who has not registed yet can do this. A username and a password will be created during the checkout process.",
+    "The user can manage her shopping cart by clicking the top-right cart icon on the Home page.",
+    "The user can read other customers' comments before deciding to buy a product. The user can write a comment after she has bought a product.",
+    "The owner of the website can set various payment methods like PayPal, credit cards, Google Pay, and Apple Pay.",
+    "The owner of the website can use the blog to attract more consumers.",
+    "On the Contact page, the owner of the website can set the location of her shop on Google Map. On this page, the user can send emails to the owner by filling in and submitting contact forms.",
+    "The user can track her orders on the Track Order page."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 6,
+  "name": "E-Commerce Multipage Pyg",
+  "img": "/data/imgs/portfolio-pyg.png",
+  "urlName": "PinYouGou Home",
+  "url": "https://pyg.intellibytesolutions.com/",
+  "subUrls": [
+    {
+      "urlName": "PinYouGou Register",
+      "url": "https://pyg.intellibytesolutions.com/register.html"
+    },
+    {
+      "urlName": "PinYouGou Login",
+      "url": "https://pyg.intellibytesolutions.com/login.html"
+    },
+    {
+      "urlName": "PinYouGou Product List",
+      "url": "https://pyg.intellibytesolutions.com/list.html"
+    },
+    {
+      "urlName": "PinYouGou Product Detail",
+      "url": "https://pyg.intellibytesolutions.com/detail.html"
+    },
+    {
+      "urlName": "PinYouGou Shopping Cart",
+      "url": "https://pyg.intellibytesolutions.com/cart.html"
+    },
+    {
+      "urlName": "PinYouGou Order",
+      "url": "https://pyg.intellibytesolutions.com/order.html"
+    }
+  ],
+  "description": "This is a multi-page website made for an e-commerce company. It is compatible with computers.",
+  "tech": "HTML, CSS, JavaScript",
+  "generalInfo": [
+    "There are 7 pages for this website: Home, Register, Login, Product List, Product Detail, Shopping Cart, and Order.",
+    "On the Home page, if you click the 'register' link or 'login' link, you will be directed to the Register page or Login page.",
+    "On the Register page, you can be directed to the Login page if you click the 'login' link. Vice versa.",
+    "On the Register page, the form can validate what you have just typed.",
+    "On the Login page, you can choose 2 ways of login by clicking '扫码登录(scan the QR code)' and '账户登录(type username and password)'.",
+    "On the Product List page, you can choose different product lists by clicking the tabs with gray fonts right above the red line. You can see lists for woman clothes, woman shoes, man clothes, man shoes, baby clothes, food, electronic devices, and sports products.",
+    "On the Product Detail page, if you hover your mouse pointer on the product picture to the left of its price, you can see a larger version of the picture.",
+    "On the Product Detail page, if you click the tabs '商品介绍(product introduction)', '规格与包装(specification & package)', '售后保障(after-sale services)' and '商品评价(product comments)', you can see different contents.",
+    "On the Product Detail page, if you click the tabs '相关分类(related categories)' and '推荐品牌(recommended brands)', you can see different contents.",
+    "On the Home, Product List, and Product Detail pages, you can be directed to the Shopping Cart page if you click the top-right 'cart' link.",
+    "On the Shopping Cart page, you can select and unselect the product by clicking the checkbox at the very front. You can also select and unselect all the products from ONE store by clicking the checkbox at the front of the seller's name. (This is an online shopping platform containing a lot of sellers, like Amazon.) You can also select and unselect all the products from different sellers by clicking the checkbox at the top-left and bottom-left corners of the order from.",
+    "On the Shopping Cart page, you can be directed to the Order page by clicking the '结算(check out)' link to the right of the total product price.",
+    "On the Order page, you can see more address saved for the customer by clicking '更多地址(more addresses)'. You can choose different ways of payment by clicking different buttons '货到付款(cash on delivery)', '微信付款(WeChat payment)', and '在线支付(online payment)'.",
+    "No matter which page you are visiting, if you click the top-left logo, you can go to Home page."
+  ]
+}

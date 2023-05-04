@@ -1,0 +1,16 @@
+{
+  "id": 5,
+  "name": "Coding Bootcamp Xczx",
+  "img": "/data/imgs/portfolio-xczx.png",
+  "urlName": "Xczx",
+  "url": "https://xczx.intellibytesolutions.com/",
+  "description": "This is a computer compatible home page made for a coding bootcamp.",
+  "tech": "HTML, CSS, JavaScript",
+  "generalInfo": [
+    "At the banner part, there is a carousel to show different products and services.",
+    "If you hovre your mouse pointer on the box with the characters '职业发展(career development)' on the left of the screen, you can see a list of different computer science professionals. This box is fixed when you scroll down the screen.",
+    "In the 1st course section, there are 'HOT' tags for popular courses.",
+    "At the top of the 2nd course section, in the middle are the tabs with gray fonts '热门(hot)', '初级(entry level)', '中级(middle level)', '高级(high level)'. You can click these tabs to see diferent levels of courses.",
+    "When you scroll to the middle and the bottom of the page, a blue 'back-to-top' button appears at the bottom-right corner. Click it if you want to go back to the top of the page."
+  ]
+}

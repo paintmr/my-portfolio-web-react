@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "name": "E-Commerce Mobile Suning",
+  "img": "/data/imgs/portfolio-sn.png",
+  "urlName": "Suning",
+  "url": "https://suning.intellibytesolutions.com/",
+  "description": "This is a home page made for an e-commerce company.",
+  "tech": "HTML, CSS",
+  "generalInfo": [
+    "It is compatible with different types of mobiles and tablets.",
+    "The top bar and the bottom nav-bar are fixed when you scroll down or up."
+  ]
+}

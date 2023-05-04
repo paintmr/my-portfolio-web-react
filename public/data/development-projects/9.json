@@ -1,0 +1,14 @@
+{
+  "id": 9,
+  "name": "Rosa Restaurant Homepage",
+  "img": "/data/imgs/portfolio-rosa.png",
+  "urlName": "Rosa",
+  "url": "https://rosa.intellibytesolutions.com/",
+  "description": "This is a responsive home page made for a restaurant. It is compatible with computers, mobiles, and tablets.",
+  "tech": "HTML, CSS, JavaScript, ScrollReveal, FontAwesome, GoogleFonts",
+  "generalInfo": [
+    "Contents are revealed as you scroll the page.",
+    "Animation is applied to many parts. As the page is loaed, the 'Welcome' part appears, and the star spins. If you are at the bottom of the page and you want to move to the top of the website, just click the little jumping white arrow on the top of the footer.",
+    "If you are using a mobile or tablet, click the icon on the top-right corner, and you will see a nav-layer showing up."
+  ]
+}

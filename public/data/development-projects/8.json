@@ -1,0 +1,14 @@
+{
+  "id": 8,
+  "name": "Bookstore Homepage",
+  "img": "/data/imgs/portfolio-books.png",
+  "urlName": "Bookstore",
+  "url": "https://books.intellibytesolutions.com/",
+  "description": "This is a WordPress responsive e-commerce website. It is compatible with computers, mobiles, and tablets.",
+  "tech": "HTML, CSS, JavaScript, Bootstrap, ScrollReveal, FontAwesome, GoogleFonts",
+  "generalInfo": [
+    "Contents are revealed as you scroll the page.",
+    "Animation is applied to many parts. If you put your mouse on the banner's book picture, it spins. In the data part, the numbers begin to count after the page is loaded.",
+    "If you are using a mobile or tablet, click the icon on the top-right corner, and you will see a nav dropdown list."
+  ]
+}

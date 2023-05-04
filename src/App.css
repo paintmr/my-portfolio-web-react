@@ -137,10 +137,6 @@ img {
 .align-items-center {
   align-items: center;
 }
-/*
-.hidden {
-  display: none !important;
-}
 
 .sec-padding {
   padding: 80px 0;
@@ -161,7 +157,6 @@ img {
   font-size: 40px;
   text-transform: capitalize;
 }
-*/
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
@@ -219,6 +214,10 @@ button {
 
 .btn:hover {
   color: var(--white);
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* end of Global Settings */
