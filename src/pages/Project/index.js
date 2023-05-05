@@ -4,10 +4,13 @@ import "./styles.css"
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react'
 import { fetchData } from '../../utils/fetchData';
+import asyncComponent from '../../utils/asyncComponent';
 
-
+// 對於Project的generalInfo比較多的項目，不把這些說明放入json文件中，寫說明的時候很不方便：每一段都要安裝json的格式去加引號，而且加圖片非常不方便。所以這些項目的generalInfo用組件寫出來，根據需要動態引入
+const DevProject12 = asyncComponent(() => import('../../components/ProjectInfo/Development/DevProject12'))
 
 export default function Project() {
+
   const location = useLocation();
   const { id, type } = location.state;
 
@@ -22,6 +25,7 @@ export default function Project() {
     // navigate(`/portfolio/${type}`, { state: { id, type } });
     navigate(-1)
   };
+
 
   return (
     <div className="project">
@@ -43,7 +47,7 @@ export default function Project() {
               {project.subUrls ?
                 project.subUrls.map((subUrl, index) => {
                   return (<li>
-                    <a key={index} href={subUrl.url} target="_blank" className="badge badge-light" rel="noreferrer"><i class="fa-solid fa-arrow-right"></i>Visit {subUrl.urlName}</a>
+                    <a key={index} href={subUrl.url} target="_blank" className="badge badge-light" rel="noreferrer"><i className="fa-solid fa-arrow-right"></i>Visit {subUrl.urlName}</a>
                   </li>)
                 })
                 : ""
@@ -57,9 +61,24 @@ export default function Project() {
             </div>
             <div className="general-info">
               <ul>
-                {project.generalInfo ? project.generalInfo.map((info, index) => {
-                  return <li key={index}><i className="fa-solid fa-circle-check"></i>{info}</li>
-                }) : "null"}
+                {
+                  // 1判斷 如果項目含有generalInfo
+                  project.generalInfo ?
+                    // 1是
+                    // 2判斷 如果項目的generalInfo需要動態引入組件
+                    project.generalInfo === "asyncComponent" ?
+                      // 2是
+                      // 3根據id判斷需要動態引入那個組件
+                      project.id === 12 ?
+                        <DevProject12 /> : ""
+                      // 2否 不需要動態引入組件，需要遍歷json中的string array
+                      :
+                      project.generalInfo.map((info, index) => {
+                        return <li key={index}><i className="fa-solid fa-circle-check"></i>{info}</li>
+                      })
+                    // 1否
+                    :
+                    "null"}
               </ul>
             </div>
           </div>

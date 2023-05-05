@@ -15,10 +15,10 @@ export default function Portfolio() {
   }, [type])
   return (
     <section className="portfolio-section sec-padding">
-      <div className="conainer">
+      <div className="container">
         <div className="row">
           <div className="section-title">
-            <h2>portfolio</h2>
+            <h2>{type} portfolio</h2>
           </div>
         </div>
         <div className="row">

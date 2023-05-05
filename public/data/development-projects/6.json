@@ -3,31 +3,31 @@
   "name": "E-Commerce Multipage Pyg",
   "img": "/data/imgs/portfolio-pyg.png",
   "urlName": "PinYouGou Home",
-  "url": "https://pyg.intellibytesolutions.com/",
+  "url": "https://pyg.bytepalette.com/",
   "subUrls": [
     {
       "urlName": "PinYouGou Register",
-      "url": "https://pyg.intellibytesolutions.com/register.html"
+      "url": "https://pyg.bytepalette.com/register.html"
     },
     {
       "urlName": "PinYouGou Login",
-      "url": "https://pyg.intellibytesolutions.com/login.html"
+      "url": "https://pyg.bytepalette.com/login.html"
     },
     {
       "urlName": "PinYouGou Product List",
-      "url": "https://pyg.intellibytesolutions.com/list.html"
+      "url": "https://pyg.bytepalette.com/list.html"
     },
     {
       "urlName": "PinYouGou Product Detail",
-      "url": "https://pyg.intellibytesolutions.com/detail.html"
+      "url": "https://pyg.bytepalette.com/detail.html"
     },
     {
       "urlName": "PinYouGou Shopping Cart",
-      "url": "https://pyg.intellibytesolutions.com/cart.html"
+      "url": "https://pyg.bytepalette.com/cart.html"
     },
     {
       "urlName": "PinYouGou Order",
-      "url": "https://pyg.intellibytesolutions.com/order.html"
+      "url": "https://pyg.bytepalette.com/order.html"
     }
   ],
   "description": "This is a multi-page website made for an e-commerce company. It is compatible with computers.",

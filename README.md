@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# My Portfolio Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech
 
-## Available Scripts
+- React 18
+- React function components & React hooks
+- React Router 6
+- Dynamic imports
+- Fontawesome
+- Google Fonts
 
-In the project directory, you can run:
+## 網站頁面
 
-### `yarn start`
+- Home
+- Design Portfolio
+- Development Portfolio
+- About me
+- Contact me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 網站組件
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+系統組件：
+index.js 包裹 App.js
 
-### `yarn test`
+在 App.js 裡，根據不同的路由，顯示不同的頁面：
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Home
+- Portfolio（Design 或者 Development） - PortfolioItem 組件
+- Project - ProjectInfo 組件（如果 project 的 generalInfo 比較多，專門給該 project 寫一個 generalInfo 的組件，動態引入）
+- About
+- Contact
 
-### `yarn build`
+各頁面公用組件
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Header
+- Loader
+- Overlay
+- BackgroundCircles
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+src/index.css 中放置 css 的全局設置代碼。
+各個頁面/組件有自己的 styles.css 文件。
 
-### `yarn eject`
+## Project data info
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+各個項目的介紹數據放在了 public/data 裡面，通過 fetch()去獲取。
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Utils 文件夾
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- fetchData.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+fetchData.js 封裝了 fetch()，用於獲取 public 的 data 數據
 
-## Learn More
+- asyncComponent.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+asyncComponent.js 封裝了動態引入組件功能。
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## asyncComponent.js
 
-### Code Splitting
+asyncComponent.js 默認導出函數 asyncComponent()，接收參數 dynamicImportComponent。
+dynamicImportComponent 是個函數，返回一個 promise，例如：
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    const  DevProject12  =  asyncComponent(() =>
+    import('../../components/ProjectInfo/Development/DevProject12'))
 
-### Analyzing the Bundle Size
+在 asyncComponent()中，不能直接：
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    return dynamicImportComponent().then((mod) => {
 
-### Making a Progressive Web App
+    return console.log(mod.default)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    })
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+必須把這個 mod.default 掛載在 React 組件上，把組件 return 出去，否則 asyncComponent()返回的是 Promise 對象，沒法用。
