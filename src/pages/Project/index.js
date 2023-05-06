@@ -5,9 +5,12 @@ import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react'
 import { fetchData } from '../../utils/fetchData';
 import asyncComponent from '../../utils/asyncComponent';
+import DevProject12ha from '../../components/ProjectInfo/Development/DevProject12'
 
 // 對於Project的generalInfo比較多的項目，不把這些說明放入json文件中，寫說明的時候很不方便：每一段都要安裝json的格式去加引號，而且加圖片非常不方便。所以這些項目的generalInfo用組件寫出來，根據需要動態引入
 const DevProject12 = asyncComponent(() => import('../../components/ProjectInfo/Development/DevProject12'))
+const DesProject1 = asyncComponent(() => import('../../components/ProjectInfo/Design/DesProject1'))
+
 
 export default function Project() {
 
@@ -26,9 +29,20 @@ export default function Project() {
     navigate(-1)
   };
 
-
+  function dynamicImportComponent(id) {
+    switch (id) {
+      case "dev12":
+        return <DevProject12 />
+      case "des1":
+        return <DesProject1 />
+      default:
+        return "";
+    }
+  }
   return (
     <div className="project">
+
+
       {project ?
         <div className="project-content">
           <div className="project-header">
@@ -43,7 +57,6 @@ export default function Project() {
               <li>
                 <a href={project.url} target="_blank" className="badge badge-light" rel="noreferrer"><i className="fa-solid fa-circle-arrow-right"></i>Visit {project.urlName}</a>
               </li>
-
               {project.subUrls ?
                 project.subUrls.map((subUrl, index) => {
                   return (<li>
@@ -67,10 +80,12 @@ export default function Project() {
                     // 1是
                     // 2判斷 如果項目的generalInfo需要動態引入組件
                     project.generalInfo === "asyncComponent" ?
-                      // 2是
-                      // 3根據id判斷需要動態引入那個組件
-                      project.id === 12 ?
-                        <DevProject12 /> : ""
+                      // 2是 動態引入組件
+                      // 3根據id判斷需要動態引入哪個組件
+                      // project.id === "dev12" ?
+                      //   <DevProject12 /> : ""
+                      // dynamicImportComponent(id)
+                      <DevProject12ha />
                       // 2否 不需要動態引入組件，需要遍歷json中的string array
                       :
                       project.generalInfo.map((info, index) => {

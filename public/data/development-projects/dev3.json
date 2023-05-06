@@ -1,7 +1,7 @@
 {
-  "id": 3,
+  "id": "dev3",
   "name": "E-Commerce Mobile Suning",
-  "img": "/data/imgs/portfolio-sn.png",
+  "img": "/data/imgs/development/portfolio-sn.png",
   "urlName": "Suning",
   "url": "https://suning.bytepalette.com/",
   "description": "This is a home page made for an e-commerce company.",

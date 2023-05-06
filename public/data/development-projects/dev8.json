@@ -1,7 +1,7 @@
 {
-  "id": 8,
+  "id": "dev8",
   "name": "Bookstore Homepage",
-  "img": "/data/imgs/portfolio-books.png",
+  "img": "/data/imgs/development/portfolio-books.png",
   "urlName": "Bookstore",
   "url": "https://books.bytepalette.com/",
   "description": "This is a WordPress responsive e-commerce website. It is compatible with computers, mobiles, and tablets.",

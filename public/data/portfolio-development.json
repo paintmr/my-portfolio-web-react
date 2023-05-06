@@ -1,62 +1,62 @@
 [
   {
-    "id": 12,
+    "id": "dev12",
     "name": "React Mobile Web App Mint Store",
-    "img": "/data/imgs/portfolio-react-mintstore.png"
+    "img": "/data/imgs/development/portfolio-react-mintstore.png"
   },
   {
-    "id": 11,
+    "id": "dev11",
     "name": "React To-Do List",
-    "img": "/data/imgs/portfolio-reactToDoList.png"
+    "img": "/data/imgs/development/portfolio-reactToDoList.png"
   },
   {
-    "id": 10,
+    "id": "dev10",
     "name": "Multipage Education Website",
-    "img": "/data/imgs/portfolio-education.png"
+    "img": "/data/imgs/development/portfolio-education.png"
   },
   {
-    "id": 9,
+    "id": "dev9",
     "name": "Rosa Restaurant Homepage",
-    "img": "/data/imgs/portfolio-rosa.png"
+    "img": "/data/imgs/development/portfolio-rosa.png"
   },
   {
-    "id": 8,
+    "id": "dev8",
     "name": "Bookstore Homepage",
-    "img": "/data/imgs/portfolio-books.png"
+    "img": "/data/imgs/development/portfolio-books.png"
   },
   {
-    "id": 7,
+    "id": "dev7",
     "name": "WordPress E-Commerce",
-    "img": "/data/imgs/portfolio-wpecommerce.png"
+    "img": "/data/imgs/development/portfolio-wpecommerce.png"
   },
   {
-    "id": 6,
+    "id": "dev6",
     "name": "E-Commerce Multipage Pyg",
-    "img": "/data/imgs/portfolio-pyg.png"
+    "img": "/data/imgs/development/portfolio-pyg.png"
   },
   {
-    "id": 5,
+    "id": "dev5",
     "name": "Coding Bootcamp Xczx",
-    "img": "/data/imgs/portfolio-xczx.png"
+    "img": "/data/imgs/development/portfolio-xczx.png"
   },
   {
-    "id": 4,
+    "id": "dev4",
     "name": "Coding Bootcamp Bxg",
-    "img": "/data/imgs/portfolio-bxg.png"
+    "img": "/data/imgs/development/portfolio-bxg.png"
   },
   {
-    "id": 3,
+    "id": "dev3",
     "name": "E-Commerce Mobile Suning",
-    "img": "/data/imgs/portfolio-sn.png"
+    "img": "/data/imgs/development/portfolio-sn.png"
   },
   {
-    "id": 2,
+    "id": "dev2",
     "name": "E-Commerce Mobile Jd",
-    "img": "/data/imgs/portfolio-jd.png"
+    "img": "/data/imgs/development/portfolio-jd.png"
   },
   {
-    "id": 1,
+    "id": "dev1",
     "name": "Tourism Mobile Xc",
-    "img": "/data/imgs/portfolio-xc.png"
+    "img": "/data/imgs/development/portfolio-xc.png"
   }
 ]

@@ -1,0 +1,10 @@
+{
+  "id": "dev12",
+  "name": "React Mobile Web App Mint Store",
+  "img": "/data/imgs/development/portfolio-react-mintstore.png",
+  "urlName": "React Mobile Web App Mint Store",
+  "url": "https://mintstore.bytepalette.com/",
+  "description": "This is a React mobile web app. It helps people find the discount coupons from shops like restaurants, hotels, and bars, so people can enjoy their life in a cost-effective way.",
+  "tech": "HTML, CSS, JavaScript, React, React-Redux, Create React App, React-Slick, Middleware(Redux-Thunk, dataFetching), React-Router, PrivateRoute, Reselect, Dynamic imports and route-centric code splitting, Debug tools(React Developer Tools, Redux DevTools), Git, GitHub",
+  "generalInfo": "asyncComponent"
+}

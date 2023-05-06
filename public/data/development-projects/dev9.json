@@ -1,7 +1,7 @@
 {
-  "id": 9,
+  "id": "dev9",
   "name": "Rosa Restaurant Homepage",
-  "img": "/data/imgs/portfolio-rosa.png",
+  "img": "/data/imgs/development/portfolio-rosa.png",
   "urlName": "Rosa",
   "url": "https://rosa.bytepalette.com/",
   "description": "This is a responsive home page made for a restaurant. It is compatible with computers, mobiles, and tablets.",

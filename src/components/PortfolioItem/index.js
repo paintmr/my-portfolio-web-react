@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 export default function PortfolioItem(props) {
   const { type } = props
   const { id, name, img } = props.item
-
   const navigate = useNavigate();
   const handleNavigate = () => {
     navigate(`/${type}/project/${id}`, { state: { id, type } });

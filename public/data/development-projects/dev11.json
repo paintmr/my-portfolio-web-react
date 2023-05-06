@@ -1,7 +1,7 @@
 {
-  "id": 11,
+  "id": "dev11",
   "name": "React To-Do List",
-  "img": "/data/imgs/portfolio-reactToDoList.png",
+  "img": "/data/imgs/development/portfolio-reactToDoList.png",
   "urlName": "React To-Do List",
   "url": "https://todolist.bytepalette.com/",
   "description": "This is a to-do list made with React.",

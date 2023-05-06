@@ -1,7 +1,7 @@
 {
-  "id": 7,
+  "id": "dev7",
   "name": "WordPress E-Commerce",
-  "img": "/data/imgs/portfolio-wpecommerce.png",
+  "img": "/data/imgs/development/portfolio-wpecommerce.png",
   "urlName": "WordPress e-Commerce",
   "url": "https://wpecommerce.bytepalette.com/",
   "description": "This is a WordPress responsive e-commerce website. It is compatible with computers, mobiles, and tablets.",

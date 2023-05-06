@@ -1,7 +1,7 @@
 {
-  "id": 10,
+  "id": "dev10",
   "name": "Multipage Education Website",
-  "img": "/data/imgs/portfolio-education.png",
+  "img": "/data/imgs/development/portfolio-education.png",
   "urlName": "MultiPage Education Web",
   "url": "https://education.bytepalette.com/",
   "description": "This is a responsive website made for an education institution. It is compatible with computers, mobiles, and tablets.",

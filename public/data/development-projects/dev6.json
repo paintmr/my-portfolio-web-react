@@ -1,7 +1,7 @@
 {
-  "id": 6,
+  "id": "dev6",
   "name": "E-Commerce Multipage Pyg",
-  "img": "/data/imgs/portfolio-pyg.png",
+  "img": "/data/imgs/development/portfolio-pyg.png",
   "urlName": "PinYouGou Home",
   "url": "https://pyg.bytepalette.com/",
   "subUrls": [
