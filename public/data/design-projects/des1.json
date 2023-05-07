@@ -1,10 +1,9 @@
 {
   "id": "des1",
-  "name": "Fairy Herbal Tea - Adobe XD",
-  "img": "/data/imgs/design/portfolio-fairy-herbal-tea.png",
-  "urlName": "Fairy Herbal Tea High Fidelity Design",
-  "url": "https://xd.adobe.com/view/25f215d2-e85e-455e-9186-b6bd42bc8e0d-70a1/",
-  "description": "This is a mobile web app for a herbal tea business.",
-  "tech": "Adobe XD",
-  "generalInfo": "asyncComponent"
+  "name": "Crypto Desktop Web",
+  "img": "/data/imgs/design/portfolio-Crypto.png",
+  "urlName": "Crypto Desktop Web High Fidelity",
+  "url": "https://www.figma.com/proto/FmUQYQhBs3VUWUd6SvoCiK/Portfolio-Project-1?type=design&node-id=304-2&scaling=min-zoom&page-id=0%3A1",
+  "description": "This is a desktop website where users can discover and collect rare NFTs. It is the secure marketplace for buying and selling unique crypto assets.",
+  "tech": "Figma"
 }

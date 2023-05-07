@@ -5,7 +5,7 @@ import styleGuide from '../../../../assets/img/design-portfolio-fairy-herbal-tea
 
 
 
-export default function DesProject1() {
+export default function DesProject2() {
   return (
     <>
       <li><i className="fa-solid fa-circle-check"></i>

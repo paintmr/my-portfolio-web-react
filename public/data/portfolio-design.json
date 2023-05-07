@@ -1,7 +1,32 @@
 [
   {
-    "id": "des1",
-    "name": "Fairy Herbal Tea - Adobe XD",
+    "id": "des6",
+    "name": "Social Media Platform Desktop",
+    "img": "/data/imgs/design/portfolio-social-media-platform-desktop.png"
+  },
+  {
+    "id": "des5",
+    "name": "Film Ticket App",
+    "img": "/data/imgs/design/portfolio-film-ticket.png"
+  },
+  {
+    "id": "des4",
+    "name": "Food Ordering App",
+    "img": "/data/imgs/design/portfolio-food-ordering.png"
+  },
+  {
+    "id": "des3",
+    "name": "Todo List App",
+    "img": "/data/imgs/design/portfolio-to-do-list.png"
+  },
+  {
+    "id": "des2",
+    "name": "Fairy Herbal Tea App",
     "img": "/data/imgs/design/portfolio-fairy-herbal-tea.png"
+  },
+  {
+    "id": "des1",
+    "name": "Crypto Desktop Web",
+    "img": "/data/imgs/design/portfolio-Crypto.png"
   }
 ]
