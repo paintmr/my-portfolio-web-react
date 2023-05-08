@@ -14,21 +14,19 @@ export default function Portfolio() {
     fetchData(url, setPortfolio)
   }, [type])
   return (
-    <section className="portfolio-section sec-padding">
-      <div className="container">
-        <div className="row">
-          <div className="section-title">
-            <h2>{type} portfolio</h2>
-          </div>
+    <section className="portfolio-section">
+      <div className="row">
+        <div className="section-title">
+          <h2>{type} portfolio</h2>
         </div>
-        <div className="row">
-          {portfolio.length > 0 ?
-            portfolio.map(item => {
-              return <PortfolioItem key={item.id} item={item} type={type} />
-            })
-            : "Loading"
-          }
-        </div>
+      </div>
+      <div className="row">
+        {portfolio.length > 0 ?
+          portfolio.map(item => {
+            return <PortfolioItem key={item.id} item={item} type={type} />
+          })
+          : "Loading"
+        }
       </div>
     </section>
   )
