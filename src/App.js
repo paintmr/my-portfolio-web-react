@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 
+import Loader from './components/Loader'
 import Header from "./components/Header"
 import BackgroundCircles from "./components/BackgroundCircles"
 
@@ -15,6 +16,7 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
+      <Loader />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

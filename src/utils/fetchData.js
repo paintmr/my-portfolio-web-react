@@ -1,5 +1,7 @@
-export const fetchData = async (url, setData) => {
+export const fetchData = async (url, setData, dispatch, action) => {
+  dispatch(action(true))
   const response = await fetch(url)
   const data = await response.json();
-  setData(data)
+  await setData(data)
+  await dispatch(action(false))
 }

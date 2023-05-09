@@ -2,8 +2,8 @@ import React from 'react'
 import "./styles.css"
 import { Link } from 'react-router-dom'
 
-
 export default function Navigation() {
+
   return (
     <section className="nav-section">
       <ul className="nav-inner">

@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./styles.css"
 import aboutImg from "../../assets/img/about.jpg"
 import { Link } from 'react-router-dom'
 
 export default function About() {
+
+  // 解決先出現圖片邊框，再出現圖片的問題
+  const [imgLoaded, setImgLoaded] = useState(false);
+  // 圖片加載完成時，圖片的onLoad會調用handleLoad
+  const handleLoad = () => {
+    setImgLoaded(true);
+  }
+  // 只有在圖片加載完成時（imgLoaded為true），圖片才顯示為visible,否則為hidden
+  const visible = {
+    visibility: imgLoaded ? 'visible' : 'hidden'
+  }
+
   return (
-    <section className="about-section">
+    <section className="about-section" style={{ ...visible }}>
       <div className="row">
         <div className="section-title">
           <h2>about me</h2>
@@ -14,7 +26,8 @@ export default function About() {
       <div className="row">
         <div className="about-img">
           <div className="img-box">
-            <img src={aboutImg} alt="about img" />
+            {/* 圖片加載完成時，圖片的onLoad會調用handleLoad */}
+            <img src={aboutImg} alt="about img" onLoad={handleLoad} />
           </div>
           <a href="Qianlan-Hu-Resume.pdf" className="btn" target="_blank">resume</a>
           <Link to="/contact" className="btn link-item">contact me</Link>

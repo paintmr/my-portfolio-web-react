@@ -56,10 +56,6 @@ body {
   padding: 35px 15px;
 }
 
-/* body.hide-scrolling {
-  overflow-y: hidden;
-} */
-
 body::before {
   content: "";
   position: fixed;
@@ -109,30 +105,7 @@ section {
 .flex-end {
   justify-content: flex-end;
 }
-/* 
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-section.fade-out {
-  animation: fadeOut 0.5s ease-in-out forwards;
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-*/
 a {
   text-decoration: none;
 }
@@ -220,6 +193,10 @@ button {
 
 .bold {
   font-weight: bold;
+}
+
+.hide {
+  display: none !important;
 }
 
 /* end of Global Settings */
